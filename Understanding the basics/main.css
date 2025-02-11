@@ -1,3 +1,15 @@
 section {
   background: #ff1b68;
 }
+
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+  /* font-family: sans-serif; */
+  font-family: "Anton", serif;
+}
