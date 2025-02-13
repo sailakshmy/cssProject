@@ -1,3 +1,13 @@
+/* .montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
 /* section {
   background: #ff1b68;
 } */
@@ -17,6 +27,10 @@ h1 {
   /* font-family: sans-serif; */
   font-family: "Anton", serif;
 }
+
+/* * {
+  font-family: sans-serif;
+} */
 
 .section-title {
   color: #2ddf5c;
