@@ -22,10 +22,14 @@ body {
   font-style: normal;
 }
 
-h1 {
+#product-overview h1 {
   color: white;
   /* font-family: sans-serif; */
   font-family: "Anton", serif;
+}
+
+h1 {
+  font-family: sans-serif;
 }
 
 /* * {
@@ -34,4 +38,5 @@ h1 {
 
 .section-title {
   color: #2ddf5c;
+  /* font-family: inherit; */
 }
