@@ -1,0 +1,37 @@
+#assignment-instructions {
+  font-family: sans-serif;
+  color: brown;
+}
+
+.second-list-element code {
+  color: green;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: inherit;
+}
+
+ol > li {
+  background-color: black;
+  color: white;
+}
+
+/* Instead of the below to not select the first element, I can instead do the following rule
+ol > li:not(:first-child) {
+  background-color: black;
+  color: white;
+}*/
+
+li + li {
+  background-color: black;
+  color: white;
+}
