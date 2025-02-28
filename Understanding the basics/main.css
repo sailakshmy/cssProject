@@ -75,7 +75,9 @@ h1 {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 48px);
+  width: calc(
+    100% - 54px
+  ); /* This is 54 to count for the content of the header(49px) and the white space that was added as a part of the space between the main-header_div div and the nav, because of the inline-block style rule that we added*/
 }
 
 .main-nav__items {
