@@ -70,14 +70,16 @@ h1 {
 
 .main-header > div {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .main-nav {
   display: inline-block;
   text-align: right;
   width: calc(
-    100% - 54px
-  ); /* This is 54 to count for the content of the header(49px) and the white space that was added as a part of the space between the main-header_div div and the nav, because of the inline-block style rule that we added*/
+    100% - 74px
+  ); /* This is 74 to count for the content of the header and the white space that was added as a part of the space between the main-header_div div and the nav, because of the inline-block style rule that we added*/
+  vertical-align: middle;
 }
 
 .main-nav__items {
@@ -89,4 +91,11 @@ h1 {
 .main-nav__item {
   display: inline-block;
   /* padding: 20px; */
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
 }
