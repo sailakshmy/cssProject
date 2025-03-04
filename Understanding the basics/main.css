@@ -100,6 +100,11 @@ h1 {
   color: #0e4f1f;
 }
 
+/* .main-nav__item a::after {
+  content: " (Link)";
+  color: red;
+} */
+
 .main-nav__item a:hover {
   color: white;
 }
@@ -114,3 +119,8 @@ h1 {
   font-weight: bold;
   font-size: 22px;
 }
+
+/* p::first-letter {
+  color: red;
+  font-size: 20px;
+} */
